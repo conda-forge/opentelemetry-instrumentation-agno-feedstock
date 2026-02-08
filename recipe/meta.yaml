@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-agno" %}
-{% set version = "0.52.1" %}
+{% set version = "0.52.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_agno-{{ version }}.tar.gz
-  sha256: 440e0a40ae92435204035384982ae1c8f7b70588ae57c31a58d558fdd378ce02
+  sha256: 60971afd876365a4cb4d9592876502a8bc5170f94a17a43a830ec9432f5a4296
 
 build:
   noarch: python
