@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-agno
-  version: "0.62.3"
+  version: "0.62.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_agno-${{ version }}.tar.gz
-  sha256: 9d9dfeafbfb85e416d84d44441b8eec06a0a00cd4807c6e809364608ae1109dc
+  sha256: 08896dcc3d39567d1e169bb1e00be6277a537b89fc712db082eb1bc64c642c38
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
